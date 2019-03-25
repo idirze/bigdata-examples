@@ -1,0 +1,16 @@
+{
+         "namespace": "stockEvent_v1",
+         "type": "record",
+         "name": "com.idirze.bigdata.examples.streaming.modele.StockEvent",
+         "fields":[
+             {  "name": "date", "type": "long", "logicalType": "date" },
+             {   "name": "open",  "type": "double"                    },
+             {   "name": "close", "type": "double"                    },
+             {   "name": "high", "type": "double"                     },
+             {   "name": "low", "type": "double"                      },
+             {   "name": "adjClose", "type": "double"                 },
+             {   "name": "volume", "type": ["int", "null"]            },
+             {   "name": "stock", "type": "string"                    }
+         ]
+}
+

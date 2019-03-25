@@ -1,0 +1,383 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56583:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/tools.jar:/Users/idir/MyProjects/workspace/bigdata-examples/spark-examples/target/scala-2.12/classes:/Users/idir/.m2/repository/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-core_2.11/2.4.0/spark-core_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar:/Users/idir/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/idir/.m2/repository/com/thoughtworks/paranamer/paranamer/2.7/paranamer-2.7.jar:/Users/idir/.m2/repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/Users/idir/.m2/repository/org/tukaani/xz/1.5/xz-1.5.jar:/Users/idir/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar:/Users/idir/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar:/Users/idir/.m2/repository/com/twitter/chill_2.11/0.9.3/chill_2.11-0.9.3.jar:/Users/idir/.m2/repository/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar:/Users/idir/.m2/repository/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/Users/idir/.m2/repository/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/Users/idir/.m2/repository/com/twitter/chill-java/0.9.3/chill-java-0.9.3.jar:/Users/idir/.m2/repository/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5.jar:/Users/idir/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/idir/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/idir/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/idir/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/idir/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/idir/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/idir/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/Users/idir/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5.jar:/Users/idir/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar:/Users/idir/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar:/Users/idir/.m2/repository/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar:/Users/idir/.m2/repository/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar:/Users/idir/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar:/Users/idir/.m2/repository/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5.jar:/Users/idir/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/idir/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/idir/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar:/Users/idir/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/Users/idir/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/idir/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar:/Users/idir/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.jar:/Users/idir/.m2/repository/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5.jar:/Users/idir/.m2/repository/org/apache/spark/spark-launcher_2.11/2.4.0/spark-launcher_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-kvstore_2.11/2.4.0/spark-kvstore_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/Users/idir/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar:/Users/idir/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar:/Users/idir/.m2/repository/org/apache/spark/spark-network-common_2.11/2.4.0/spark-network-common_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-network-shuffle_2.11/2.4.0/spark-network-shuffle_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-unsafe_2.11/2.4.0/spark-unsafe_2.11-2.4.0.jar:/Users/idir/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/idir/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar:/Users/idir/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar:/Users/idir/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/idir/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/Users/idir/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/idir/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/idir/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/idir/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar:/Users/idir/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar:/Users/idir/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:/Users/idir/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/idir/.m2/repository/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar:/Users/idir/.m2/repository/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar:/Users/idir/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1.jar:/Users/idir/.m2/repository/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.jar:/Users/idir/.m2/repository/com/github/luben/zstd-jni/1.3.2-2/zstd-jni-1.3.2-2.jar:/Users/idir/.m2/repository/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar:/Users/idir/.m2/repository/commons-net/commons-net/3.1/commons-net-3.1.jar:/Users/idir/.m2/repository/org/json4s/json4s-jackson_2.11/3.5.3/json4s-jackson_2.11-3.5.3.jar:/Users/idir/.m2/repository/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3.jar:/Users/idir/.m2/repository/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3.jar:/Users/idir/.m2/repository/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3.jar:/Users/idir/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.jar:/Users/idir/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar:/Users/idir/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/Users/idir/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar:/Users/idir/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar:/Users/idir/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:/Users/idir/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:/Users/idir/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar:/Users/idir/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/idir/.m2/repository/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar:/Users/idir/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/idir/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar:/Users/idir/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/Users/idir/.m2/repository/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar:/Users/idir/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar:/Users/idir/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/idir/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar:/Users/idir/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar:/Users/idir/.m2/repository/io/netty/netty-all/4.1.17.Final/netty-all-4.1.17.Final.jar:/Users/idir/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar:/Users/idir/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar:/Users/idir/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5.jar:/Users/idir/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.jar:/Users/idir/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5.jar:/Users/idir/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5.jar:/Users/idir/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar:/Users/idir/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1.jar:/Users/idir/.m2/repository/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar:/Users/idir/.m2/repository/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9.jar:/Users/idir/.m2/repository/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar:/Users/idir/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/idir/.m2/repository/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar:/Users/idir/.m2/repository/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.jar:/Users/idir/.m2/repository/org/apache/spark/spark-tags_2.11/2.4.0/spark-tags_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-streaming_2.11/2.4.0/spark-streaming_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-mllib_2.11/2.4.0/spark-mllib_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-sql_2.11/2.4.0/spark-sql_2.11-2.4.0.jar:/Users/idir/.m2/repository/com/univocity/univocity-parsers/2.7.3/univocity-parsers-2.7.3.jar:/Users/idir/.m2/repository/org/apache/spark/spark-sketch_2.11/2.4.0/spark-sketch_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-catalyst_2.11/2.4.0/spark-catalyst_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/codehaus/janino/janino/3.0.9/janino-3.0.9.jar:/Users/idir/.m2/repository/org/codehaus/janino/commons-compiler/3.0.9/commons-compiler-3.0.9.jar:/Users/idir/.m2/repository/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar:/Users/idir/.m2/repository/org/apache/orc/orc-core/1.5.2/orc-core-1.5.2-nohive.jar:/Users/idir/.m2/repository/org/apache/orc/orc-shims/1.5.2/orc-shims-1.5.2.jar:/Users/idir/.m2/repository/io/airlift/aircompressor/0.10/aircompressor-0.10.jar:/Users/idir/.m2/repository/org/apache/orc/orc-mapreduce/1.5.2/orc-mapreduce-1.5.2-nohive.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-column/1.10.0/parquet-column-1.10.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-common/1.10.0/parquet-common-1.10.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-encoding/1.10.0/parquet-encoding-1.10.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-hadoop/1.10.0/parquet-hadoop-1.10.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-jackson/1.10.0/parquet-jackson-1.10.0.jar:/Users/idir/.m2/repository/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar:/Users/idir/.m2/repository/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.jar:/Users/idir/.m2/repository/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.jar:/Users/idir/.m2/repository/com/carrotsearch/hppc/0.7.2/hppc-0.7.2.jar:/Users/idir/.m2/repository/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055.jar:/Users/idir/.m2/repository/org/apache/spark/spark-mllib-local_2.11/2.4.0/spark-mllib-local_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/scalanlp/breeze_2.11/0.13.2/breeze_2.11-0.13.2.jar:/Users/idir/.m2/repository/org/scalanlp/breeze-macros_2.11/0.13.2/breeze-macros_2.11-0.13.2.jar:/Users/idir/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/idir/.m2/repository/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar:/Users/idir/.m2/repository/org/spire-math/spire_2.11/0.13.0/spire_2.11-0.13.0.jar:/Users/idir/.m2/repository/org/spire-math/spire-macros_2.11/0.13.0/spire-macros_2.11-0.13.0.jar:/Users/idir/.m2/repository/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar:/Users/idir/.m2/repository/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.jar:/Users/idir/.m2/repository/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar:/Users/idir/.m2/repository/org/apache/spark/spark-hive_2.11/2.4.0/spark-hive_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar:/Users/idir/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/idir/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/idir/.m2/repository/javolution/javolution/5.5.1/javolution-5.5.1.jar:/Users/idir/.m2/repository/log4j/apache-log4j-extras/1.2.17/apache-log4j-extras-1.2.17.jar:/Users/idir/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar:/Users/idir/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/idir/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/idir/.m2/repository/org/antlr/ST4/4.0.4/ST4-4.0.4.jar:/Users/idir/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar:/Users/idir/.m2/repository/org/iq80/snappy/snappy/0.2/snappy-0.2.jar:/Users/idir/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/idir/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.jar:/Users/idir/.m2/repository/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar:/Users/idir/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/idir/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/idir/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar:/Users/idir/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar:/Users/idir/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/Users/idir/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/Users/idir/.m2/repository/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar:/Users/idir/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/idir/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/idir/.m2/repository/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.jar:/Users/idir/.m2/repository/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar:/Users/idir/.m2/repository/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.jar:/Users/idir/.m2/repository/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.jar:/Users/idir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/idir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/idir/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/idir/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/idir/.m2/repository/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar:/Users/idir/.m2/repository/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.jar:/Users/idir/.m2/repository/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar:/Users/idir/.m2/repository/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar:/Users/idir/.m2/repository/org/apache/thrift/libfb303/0.9.3/libfb303-0.9.3.jar:/Users/idir/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/Users/idir/.m2/repository/org/apache/spark/spark-graphx_2.11/2.4.0/spark-graphx_2.11-2.4.0.jar:/Users/idir/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar:/Users/idir/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/idir/.m2/repository/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.4.0/spark-streaming-kafka-0-10_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar:/Users/idir/.m2/repository/org/apache/spark/spark-sql-kafka-0-10_2.11/2.4.0/spark-sql-kafka-0-10_2.11-2.4.0.jar:/Users/idir/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar:/Users/idir/.m2/repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar:/Users/idir/.m2/repository/com/github/scopt/scopt_2.11/3.7.0/scopt_2.11-3.7.0.jar:/Users/idir/.m2/repository/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar:/Users/idir/.m2/repository/org/apache/parquet/parquet-tools/1.10.0/parquet-tools-1.10.0.jar com.idirze.bigdata.examples.tools.ParquetTools
+objc[221]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java (0x1047864c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1067a24e0). One of the two will be used. Which one is undefined.
+file:         file:/Users/idir/MyProjects/workspace/bigdata-examples/spark-examples/data/result/stocks/part-00000-2b65e1f8-b52f-4036-b2c7-130f78573176-c000.snappy.parquet
+creator:      parquet-mr version 1.10.0 (build 031a6654009e3b82020012a18434c582bd74c73a)
+extra:        org.apache.spark.sql.parquet.row.metadata = {"type":"struct","fields":[{"name":"date","type":"date","nullable":true,"metadata":{}},{"name":"open","type":"double","nullable":true,"metadata":{}},{"name":"high","type":"double","nullable":true,"metadata":{}},{"name":"low","type":"double","nullable":true,"metadata":{}},{"name":"close","type":"double","nullable":true,"metadata":{}},{"name":"adjClose","type":"decimal(9,5)","nullable":true,"metadata":{}},{"name":"volume","type":"long","nullable":true,"metadata":{}},{"name":"stock","type":"string","nullable":true,"metadata":{}}]}
+
+file schema:  spark_schema
+--------------------------------------------------------------------------------
+date:         OPTIONAL INT32 O:DATE R:0 D:1
+open:         OPTIONAL DOUBLE R:0 D:1
+high:         OPTIONAL DOUBLE R:0 D:1
+low:          OPTIONAL DOUBLE R:0 D:1
+close:        OPTIONAL DOUBLE R:0 D:1
+adjClose:     OPTIONAL INT32 O:DECIMAL R:0 D:1
+volume:       OPTIONAL INT64 R:0 D:1
+stock:        OPTIONAL BINARY O:UTF8 R:0 D:1
+
+row group 1:  RC:1860 TS:89811 OFFSET:4
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:4 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-05-16, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:7504 SZ:8001/14952/1,87 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 118.459999, max: 215.380005, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:15505 SZ:8053/14952/1,86 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 119.660004, max: 215.899994, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:23558 SZ:7982/14952/1,87 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 116.900002, max: 214.300003, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:31540 SZ:8083/14952/1,85 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 117.849998, max: 215.800003, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:39623 SZ:7485/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 104.62003, max: 175.26439, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:47108 SZ:9585/14953/1,56 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1193000, max: 30490200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:56693 SZ:76/72/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: IBM, max: IBM, num_nulls: 0]
+
+row group 2:  RC:1892 TS:91350 OFFSET:56769
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:56769 SZ:7628/7623/1,00 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:64397 SZ:8490/15209/1,79 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 88.059998, max: 253.710007, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:72887 SZ:8450/15209/1,80 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 89.279999, max: 255.149994, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:81337 SZ:8438/15209/1,80 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 84.269997, max: 251.259995, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:89775 SZ:8534/15209/1,78 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 87.699997, max: 252.889999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:98309 SZ:7616/7611/1,00 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 79.43480, max: 246.99446, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:105925 SZ:9750/15209/1,56 VC:1892 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 694200, max: 24482500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:115675 SZ:75/71/0,95 VC:1892 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: GS, max: IBM, num_nulls: 0]
+
+row group 3:  RC:1867 TS:90148 OFFSET:115750
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:115750 SZ:7528/7523/1,00 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:123278 SZ:8248/15008/1,82 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 70.550003, max: 274.339996, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:131526 SZ:8218/15008/1,83 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 73.099998, max: 275.309998, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:139744 SZ:8305/15009/1,81 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 69.580002, max: 270.769989, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:148049 SZ:8287/15009/1,81 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 70.019997, max: 273.380005, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:156336 SZ:7516/7511/1,00 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 61.32954, max: 270.42242, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:163852 SZ:9820/15009/1,53 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1204400, max: 30717300, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:173672 SZ:75/71/0,95 VC:1867 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: CVX, max: GS, num_nulls: 0]
+
+row group 4:  RC:1847 TS:89194 OFFSET:173747
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:173747 SZ:7448/7443/1,00 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:181195 SZ:9484/14849/1,57 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.240002, max: 134.460007, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:190679 SZ:9435/14849/1,57 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.385715, max: 134.539993, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:200114 SZ:9493/14849/1,56 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 44.357143, max: 132.110001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:209607 SZ:9521/14849/1,56 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.045715, max: 133.600006, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:219128 SZ:7436/7431/1,00 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 30.16545, max: 128.63709, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:226564 SZ:10640/14849/1,40 VC:1847 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1744200, max: 470249500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:237204 SZ:79/75/0,95 VC:1847 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: AAPL, max: CVX, num_nulls: 0]
+
+row group 5:  RC:1853 TS:89479 OFFSET:237283
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:237283 SZ:7472/7467/1,00 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:244755 SZ:8279/14897/1,80 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 70.129997, max: 230.779999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:253034 SZ:8234/14896/1,81 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 72.18, max: 233.470001, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:261268 SZ:8228/14896/1,81 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 68.629997, max: 229.779999, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:269496 SZ:8230/14896/1,81 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 70.93, max: 232.070007, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:277726 SZ:7459/7455/1,00 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 59.14704, max: 231.26309, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:285185 SZ:9836/14897/1,51 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 848400, max: 111985000, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:295021 SZ:79/75/0,95 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: AAPL, max: MMM, num_nulls: 0]
+
+row group 6:  RC:1881 TS:90822 OFFSET:295100
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:295100 SZ:7584/7579/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:302684 SZ:8329/15121/1,82 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 57.529999, max: 258.51001, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:311013 SZ:8307/15121/1,82 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 59.23, max: 259.769989, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:319320 SZ:8334/15121/1,81 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 56.009998, max: 255.970001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:327654 SZ:8365/15121/1,81 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 57.41, max: 258.630005, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:336019 SZ:7567/7567/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 47.66996, max: 251.94652, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:343586 SZ:9684/15121/1,56 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 651000, max: 44391800, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:353270 SZ:75/71/0,95 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: BA, max: MMM, num_nulls: 0]
+
+row group 7:  RC:1881 TS:90822 OFFSET:353345
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:353345 SZ:7584/7579/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:360929 SZ:8416/15121/1,80 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 67.169998, max: 390.73999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:369345 SZ:8381/15121/1,80 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 69.050003, max: 394.279999, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:377726 SZ:8426/15121/1,79 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 66.870003, max: 386.690002, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:386152 SZ:8429/15121/1,79 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 67.440002, max: 392.299988, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:394581 SZ:7572/7567/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 56.46172, max: 390.49677, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:402153 SZ:9686/15121/1,56 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 747900, max: 33735600, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:411839 SZ:75/71/0,95 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: BA, max: UTX, num_nulls: 0]
+
+row group 8:  RC:1860 TS:89812 OFFSET:411914
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:411914 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:419414 SZ:8147/14952/1,84 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 58.209999, max: 143.679993, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:427561 SZ:8093/14952/1,85 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 58.380001, max: 144.149994, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:435654 SZ:8121/14952/1,84 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 57.5, max: 141.789993, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:443775 SZ:8135/14952/1,84 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 57.66, max: 142.080002, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:451910 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.82045, max: 141.26978, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:459398 SZ:9791/14953/1,53 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1008700, max: 98440200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:469189 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: JNJ, max: UTX, num_nulls: 0]
+
+row group 9:  RC:1881 TS:90818 OFFSET:469266
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:469266 SZ:7584/7579/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:476850 SZ:8224/15120/1,84 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.33, max: 147.839996, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:485074 SZ:8252/15120/1,83 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 29.66, max: 148.990005, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:493326 SZ:8237/15120/1,84 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.129999, max: 147.0, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:501563 SZ:8253/15120/1,83 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.51, max: 148.139999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:509816 SZ:7572/7567/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 24.17605, max: 147.84000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:517388 SZ:9935/15121/1,52 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2353800, max: 58140200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:527323 SZ:75/71/0,95 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: HD, max: JNJ, num_nulls: 0]
+
+row group 10: RC:1888 TS:91158 OFFSET:527398
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:527398 SZ:7612/7607/1,00 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:535010 SZ:8338/15177/1,82 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 35.5, max: 214.029999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:543348 SZ:8297/15177/1,83 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 35.709999, max: 215.429993, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:551645 SZ:8308/15177/1,83 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 35.380001, max: 211.5, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:559953 SZ:8325/15177/1,82 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 35.540001, max: 213.850006, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:568278 SZ:7599/7595/1,00 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 31.33381, max: 212.57840, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:575877 SZ:9814/15177/1,55 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1517100, max: 26628600, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:585691 SZ:75/71/0,95 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: HD, max: UNH, num_nulls: 0]
+
+row group 11: RC:1860 TS:89816 OFFSET:585766
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:585766 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:593266 SZ:8354/14953/1,79 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 46.240002, max: 286.149994, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:601620 SZ:8329/14953/1,80 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 47.439999, max: 287.940002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:609949 SZ:8395/14953/1,78 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.970001, max: 282.709991, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:618344 SZ:8398/14953/1,78 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 46.799999, max: 286.329987, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:626742 SZ:7486/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 39.32962, max: 286.32999, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:634228 SZ:9537/14953/1,57 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 744000, max: 21810200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:643765 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: TRV, max: UNH, num_nulls: 0]
+
+row group 12: RC:1860 TS:89812 OFFSET:643842
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:643842 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:651342 SZ:8040/14952/1,86 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 67.989998, max: 149.690002, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:659382 SZ:8040/14952/1,86 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 68.519997, max: 150.550003, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:667422 SZ:8119/14952/1,84 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 67.620003, max: 148.800003, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:675541 SZ:8069/14952/1,85 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 67.779999, max: 150.0, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:683610 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 56.55034, max: 146.56308, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:691098 SZ:9442/14953/1,58 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 305400, max: 36471600, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:700540 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: MCD, max: TRV, num_nulls: 0]
+
+row group 13: RC:1860 TS:89244 OFFSET:700617
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:700617 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:708117 SZ:9391/14864/1,58 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 37.369999, max: 190.720001, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:717508 SZ:9361/14784/1,58 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 37.52, max: 190.880005, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:726869 SZ:9349/14720/1,57 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 37.07, max: 188.610001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:736218 SZ:9390/14872/1,58 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 37.360001, max: 189.259995, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:745608 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 33.29966, max: 188.51000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:753096 SZ:9698/14953/1,54 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 963200, max: 38451900, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:762794 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: DIS, max: MCD, num_nulls: 0]
+
+row group 14: RC:1860 TS:89811 OFFSET:762871
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:762871 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2011-07-08, max: 2018-11-26, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:770371 SZ:8208/14952/1,82 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.73, max: 121.5, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:778579 SZ:8192/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 29.9, max: 122.080002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:786771 SZ:8162/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.190001, max: 120.610001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:794933 SZ:8212/14952/1,82 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 29.0, max: 121.690002, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:803145 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 25.84823, max: 117.98483, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:810633 SZ:9833/14953/1,52 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2165700, max: 87048500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:820466 SZ:76/72/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: DIS, max: DIS, num_nulls: 0]
+
+row group 15: RC:1860 TS:89452 OFFSET:820542
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:820542 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:828042 SZ:9576/14848/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 58.080002, max: 173.100006, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:837618 SZ:9502/14744/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 59.349998, max: 173.240005, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:847120 SZ:9610/14904/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 56.360001, max: 169.229996, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:856730 SZ:8359/14953/1,79 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 57.91, max: 170.889999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:865089 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 53.46449, max: 167.92746, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:872577 SZ:9733/14953/1,54 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 944400, max: 27489500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:882310 SZ:76/72/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: CAT, max: DIS, num_nulls: 0]
+
+row group 16: RC:1860 TS:89812 OFFSET:882386
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:882386 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:889886 SZ:8153/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.25, max: 159.75, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:898039 SZ:8070/14952/1,85 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 29.129999, max: 161.600006, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:906109 SZ:8179/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 27.85, max: 158.699997, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:914288 SZ:8135/14952/1,84 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 28.379999, max: 158.919998, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:922423 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 23.46241, max: 157.21802, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:929911 SZ:10321/14953/1,45 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1837400, max: 217294200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:940232 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: CAT, max: JPM, num_nulls: 0]
+
+row group 17: RC:1924 TS:92884 OFFSET:940309
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:940309 SZ:7756/7751/1,00 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:948065 SZ:8548/15465/1,81 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 17.17, max: 119.129997, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:956613 SZ:8624/15465/1,79 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 17.59, max: 119.330002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:965237 SZ:8563/15465/1,81 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 16.877501, max: 118.080002, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:973800 SZ:8620/15465/1,79 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 17.280001, max: 118.769997, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:982420 SZ:7744/7739/1,00 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 14.71925, max: 117.80504, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:990164 SZ:10429/15465/1,48 VC:1924 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1413700, max: 132109200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1000593 SZ:73/69/0,95 VC:1924 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: JPM, max: V, num_nulls: 0]
+
+row group 18: RC:1854 TS:88766 OFFSET:1000666
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1000666 SZ:7476/7471/1,00 VC:1854 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1008142 SZ:9433/14677/1,56 VC:1854 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 23.75, max: 150.889999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1017575 SZ:9394/14589/1,55 VC:1854 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 24.01, max: 151.559998, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1026969 SZ:9444/14709/1,56 VC:1854 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 23.65, max: 150.610001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1036413 SZ:9516/14885/1,56 VC:1854 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 23.709999, max: 150.789993, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1045929 SZ:7461/7459/1,00 VC:1854 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 19.57422, max: 150.51975, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1053390 SZ:10535/14905/1,41 VC:1854 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 3045600, max: 319317900, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1063925 SZ:75/71/0,95 VC:1854 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: MSFT, max: V, num_nulls: 0]
+
+row group 19: RC:1827 TS:83416 OFFSET:1064000
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1064000 SZ:7368/7363/1,00 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1071368 SZ:8840/13692/1,55 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 13.93, max: 115.419998, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1080208 SZ:8733/13428/1,54 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 14.12, max: 116.18, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1088941 SZ:8737/13452/1,54 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 13.3, max: 114.93, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1097678 SZ:8683/13364/1,54 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 13.73, max: 115.610001, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1106361 SZ:7342/7351/1,00 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 11.08974, max: 115.11271, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1113703 SZ:10455/14689/1,40 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 7425600, max: 560040200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1124158 SZ:81/77/0,95 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: CSCO, max: MSFT, num_nulls: 0]
+
+row group 20: RC:1827 TS:78128 OFFSET:1124239
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1124239 SZ:7368/7363/1,00 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1131607 SZ:8106/12412/1,53 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 19.25, max: 49.259998, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1139713 SZ:7965/12140/1,52 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 19.549999, max: 49.470001, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1147678 SZ:7889/12020/1,52 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 19.16, max: 49.07, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1155567 SZ:7914/12076/1,53 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 19.190001, max: 49.139999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1163481 SZ:7317/7351/1,00 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 15.24409, max: 48.81000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1170798 SZ:10395/14689/1,41 VC:1827 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 6155800, max: 174554500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1181193 SZ:81/77/0,95 VC:1827 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: CSCO, max: INTC, num_nulls: 0]
+
+row group 21: RC:1846 TS:81310 OFFSET:1181274
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1181274 SZ:7444/7439/1,00 VC:1846 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1188718 SZ:8394/12970/1,55 VC:1846 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 17.02, max: 57.009998, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1197112 SZ:8332/12874/1,55 VC:1846 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 17.549999, max: 57.599998, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1205444 SZ:8273/12762/1,54 VC:1846 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 16.629999, max: 56.779999, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1213717 SZ:8366/12922/1,54 VC:1846 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 16.66, max: 57.080002, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1222083 SZ:7429/7427/1,00 VC:1846 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 12.85311, max: 56.38015, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1229512 SZ:10475/14841/1,42 VC:1846 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 5893800, max: 222098200, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1239987 SZ:79/75/0,95 VC:1846 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: INTC, max: PFE, num_nulls: 0]
+
+row group 22: RC:1860 TS:81292 OFFSET:1240066
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1240066 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1247566 SZ:8198/12768/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 27.809999, max: 95.980003, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1255764 SZ:8163/12656/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 27.969999, max: 96.25, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1263927 SZ:8343/13048/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 27.51, max: 95.599998, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1272270 SZ:8247/12816/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 27.700001, max: 95.839996, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1280517 SZ:7412/7483/1,01 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 23.78733, max: 80.50450, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1287929 SZ:10332/14953/1,45 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 5674000, max: 284468100, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1298261 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: PFE, max: XOM, num_nulls: 0]
+
+row group 23: RC:1881 TS:87414 OFFSET:1298338
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1298338 SZ:7584/7579/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1305922 SZ:9080/14377/1,58 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 33.32, max: 104.419998, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1315002 SZ:9072/14281/1,57 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 34.32, max: 104.760002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1324074 SZ:9014/14233/1,58 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 32.279999, max: 103.949997, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1333088 SZ:9017/14185/1,57 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 33.119999, max: 104.379997, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1342105 SZ:7569/7567/1,00 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 23.70062, max: 88.89850, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1349674 SZ:10197/15121/1,48 VC:1881 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 3375400, max: 83961300, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1359871 SZ:75/71/0,95 VC:1881 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: VZ, max: XOM, num_nulls: 0]
+
+row group 24: RC:1895 TS:79328 OFFSET:1359946
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1359946 SZ:7640/7635/1,00 VC:1895 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1367586 SZ:7828/12108/1,55 VC:1895 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 31.16, max: 61.029999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1375414 SZ:7935/12252/1,54 VC:1895 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 31.334999, max: 61.580002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1383349 SZ:7879/12228/1,55 VC:1895 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 30.645, max: 60.18, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1391228 SZ:7897/12180/1,54 VC:1895 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 30.799999, max: 60.650002, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1399125 SZ:7628/7623/1,00 VC:1895 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 23.30474, max: 60.65000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1406753 SZ:10374/15233/1,47 VC:1895 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 4108300, max: 616620500, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1417127 SZ:73/69/0,95 VC:1895 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: KO, max: VZ, num_nulls: 0]
+
+row group 25: RC:1888 TS:72170 OFFSET:1417200
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1417200 SZ:7612/7607/1,00 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1424812 SZ:6783/10428/1,54 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 29.790001, max: 50.82, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1431595 SZ:6773/10380/1,53 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 30.91, max: 50.84, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1438368 SZ:6853/10460/1,53 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 29.469999, max: 50.25, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1445221 SZ:6824/10452/1,53 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 29.809999, max: 50.509998, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1452045 SZ:7587/7595/1,00 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 23.06182, max: 50.40000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1459632 SZ:10249/15177/1,48 VC:1888 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2996300, max: 74294400, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1469881 SZ:75/71/0,95 VC:1888 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: KO, max: MRK, num_nulls: 0]
+
+row group 26: RC:1860 TS:82884 OFFSET:1469956
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1469956 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1477456 SZ:8560/13272/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 38.950001, max: 79.519997, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1486016 SZ:8518/13216/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 39.380001, max: 80.190002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1494534 SZ:8452/13080/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 38.860001, max: 78.279999, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1502986 SZ:8580/13312/1,55 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 39.209999, max: 79.339996, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1511566 SZ:7477/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 31.75655, max: 78.78770, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1519043 SZ:9978/14953/1,50 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2980100, max: 72876000, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1529021 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: AXP, max: MRK, num_nulls: 0]
+
+row group 27: RC:1860 TS:89708 OFFSET:1529098
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1529098 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1536598 SZ:8171/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 44.860001, max: 113.989998, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1544769 SZ:9513/14848/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 45.400002, max: 114.550003, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1554282 SZ:8164/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 44.700001, max: 112.0, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1562446 SZ:8163/14952/1,83 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 45.0, max: 112.889999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1570609 SZ:7488/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 40.68156, max: 112.89000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1578097 SZ:9678/14953/1,55 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 837300, max: 43783400, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1587775 SZ:77/73/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: AXP, max: WMT, num_nulls: 0]
+
+row group 28: RC:1860 TS:85491 OFFSET:1587852
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1587852 SZ:7500/7495/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2011-04-01, max: 2018-08-21, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1595352 SZ:8934/13968/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 48.849998, max: 109.139999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1604286 SZ:8834/13840/1,57 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 50.060001, max: 109.980003, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1613120 SZ:8863/13840/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 48.310001, max: 107.989998, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1621983 SZ:8869/13840/1,56 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 48.41, max: 109.550003, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1630852 SZ:7477/7483/1,00 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 40.24983, max: 107.01010, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1638329 SZ:9870/14953/1,51 VC:1860 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2094900, max: 80898100, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1648199 SZ:76/72/0,95 VC:1860 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: WMT, max: WMT, num_nulls: 0]
+
+row group 29: RC:1894 TS:85226 OFFSET:1648275
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1648275 SZ:7636/7631/1,00 VC:1894 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1655911 SZ:8800/13868/1,58 VC:1894 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 58.720001, max: 105.5, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1664711 SZ:8523/13372/1,57 VC:1894 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 59.580002, max: 106.209999, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1673234 SZ:8663/13572/1,57 VC:1894 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 57.560001, max: 104.809998, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1681897 SZ:8773/13868/1,58 VC:1894 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 58.509998, max: 105.559998, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1690670 SZ:7624/7619/1,00 VC:1894 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 46.35159, max: 104.98708, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1698294 SZ:10014/15225/1,52 VC:1894 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2196700, max: 123735700, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1708308 SZ:75/71/0,95 VC:1894 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: PG, max: WMT, num_nulls: 0]
+
+row group 30: RC:1867 TS:90148 OFFSET:1708383
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1708383 SZ:7528/7523/1,00 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1715911 SZ:8275/15009/1,81 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 18.795, max: 96.449997, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1724186 SZ:8206/15008/1,83 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 19.1525, max: 96.900002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1732392 SZ:8266/15009/1,82 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 17.3575, max: 96.019997, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1740658 SZ:8256/15008/1,82 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 18.862499, max: 96.639999, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1748914 SZ:7505/7511/1,00 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 15.11418, max: 96.64000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1756419 SZ:9900/15009/1,52 VC:1867 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1738400, max: 86339600, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1766319 SZ:75/71/0,95 VC:1867 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: NKE, max: PG, num_nulls: 0]
+
+row group 31: RC:1833 TS:84922 OFFSET:1766394
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1766394 SZ:7392/7387/1,00 VC:1833 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1773786 SZ:9044/14079/1,56 VC:1833 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 21.030001, max: 86.0, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1782830 SZ:8863/13711/1,55 VC:1833 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 22.84, max: 86.040001, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1791693 SZ:8847/13735/1,55 VC:1833 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 20.610001, max: 85.010002, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1800540 SZ:8887/13823/1,56 VC:1833 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 21.51, max: 85.550003, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1809427 SZ:7380/7375/1,00 VC:1833 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 17.03882, max: 85.29683, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1816807 SZ:9756/14737/1,51 VC:1833 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2385600, max: 79849400, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1826563 SZ:79/75/0,95 VC:1833 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: DWDP, max: NKE, num_nulls: 0]
+
+row group 32: RC:1853 TS:88778 OFFSET:1826642
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1826642 SZ:7472/7467/1,00 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2010-12-27, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1834114 SZ:9574/14853/1,55 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 29.08, max: 97.029999, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1843688 SZ:9400/14597/1,55 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 29.26, max: 97.300003, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1853088 SZ:9439/14613/1,55 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 28.530001, max: 96.290001, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1862527 SZ:9547/14821/1,55 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 28.99, max: 96.68, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1872074 SZ:7460/7455/1,00 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 25.13691, max: 90.13625, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1879534 SZ:9771/14897/1,52 VC:1853 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1367000, max: 84130100, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1889305 SZ:79/75/0,95 VC:1853 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: DWDP, max: WBA, num_nulls: 0]
+
+row group 33: RC:691 TS:33511 OFFSET:1889384
+--------------------------------------------------------------------------------
+date:          INT32 SNAPPY DO:0 FPO:1889384 SZ:2824/2819/1,00 VC:691 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 2016-03-30, max: 2018-12-24, num_nulls: 0]
+open:          DOUBLE SNAPPY DO:0 FPO:1892208 SZ:3115/5599/1,80 VC:691 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 59.68, max: 88.0, num_nulls: 0]
+high:          DOUBLE SNAPPY DO:0 FPO:1895323 SZ:3521/5536/1,57 VC:691 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 60.279999, max: 89.690002, num_nulls: 0]
+low:           DOUBLE SNAPPY DO:0 FPO:1898844 SZ:3531/5480/1,55 VC:691 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: 59.07, max: 87.050003, num_nulls: 0]
+close:         DOUBLE SNAPPY DO:0 FPO:1902375 SZ:3085/5599/1,81 VC:691 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 59.700001, max: 87.730003, num_nulls: 0]
+adjClose:      INT32 SNAPPY DO:0 FPO:1905460 SZ:2809/2807/1,00 VC:691 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 59.00403, max: 85.69000, num_nulls: 0]
+volume:        INT64 SNAPPY DO:0 FPO:1908269 SZ:3727/5599/1,50 VC:691 ENC:PLAIN,BIT_PACKED,RLE ST:[min: 1586900, max: 40465700, num_nulls: 0]
+stock:         BINARY SNAPPY DO:0 FPO:1911996 SZ:76/72/0,95 VC:691 ENC:PLAIN_DICTIONARY,BIT_PACKED,RLE ST:[min: WBA, max: WBA, num_nulls: 0]
+
+Process finished with exit code 0
+
+
